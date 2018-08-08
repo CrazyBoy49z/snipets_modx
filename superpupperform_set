@@ -1,0 +1,24 @@
+//smtp//mail//default//
+$mailtype= 'smtp';
+//КОМУ (через запятую)
+
+$mailto= 'ktk-trade@neftetrade.net';
+//Видимые копии (через запятую)
+$mailcc= false;
+//Скрытые копии (через запятую)
+$mailbcc= false;
+
+//ОТ (если SMTP, то это поле - логин)
+$mailfrom= 'ktk-yaroslav@yandex.ru';
+
+//Пароль от почты (если SMTP)
+$mailpassw= 'h75bsj3ds';
+
+
+//Любимый киногерой: ----- //Секретный вопрос от почты
+
+//Сервер SMTP (если SMTP)
+$smtp= 'smtp.yandex.ru';
+
+//Порт SMTP (если SMTP)
+$smtpport= 465;
