@@ -1,0 +1,72 @@
+@media (max-width: 767px) {
+    .superpuperforms_wrapper .spfs_white {
+        width: 440px;
+        box-sizing: border-box;
+    }
+    .superpuperforms_wrapper .spfs_white .spfs_krestik span {
+        display: none;
+    }
+    .superpuperforms_wrapper .spfs_white .spfs_krestik {
+        right: 10px;
+    }
+    .superpuperforms_wrapper .spfs_formwrapper_popup {
+        text-align: center;
+    }
+    .superpuperforms_wrapper_popup .spfs_tit {
+        margin: 0 auto 20px;
+    }
+    .spfs_label {
+        float: none;
+        margin: 0 auto 5px;
+        text-align: center;
+    }
+    .spfs_input {
+        float: none;
+        margin: 0 auto;
+    }
+    .spfs_captcha {
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .superpuperforms_wrapper .spfs_white {
+        width: 300px;
+    }
+    .superpuperforms_wrapper_popup .spfs_tit {
+        width: 210px;
+    }
+}
+
+.forma-right .superpuperforms_wrapper_default {
+    width: 100%
+}
+
+.forma-right .spfs_label {
+    float: none;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 5px 0;
+    text-align: left
+}
+
+.forma-right .spfs_input {
+    float: none;
+    width: 100%;
+    margin: 0 0 15px 0
+}
+
+.forma-right .spfs_input button.spfs_submit {
+    width: 100%;
+    outline: none
+}
+
+.forma-right .spfs_label .zvd {
+    right: 0
+}
+
+.forma-right .spfs_tit {
+    width: 100%;
+    margin: 20px 0;
+    float: none
+}
